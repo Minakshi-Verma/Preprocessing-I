@@ -49,27 +49,21 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
+*{
 	box-sizing: border-box;
 	width: 800px;
 	border:1px black solid;
 	width: 90%;
-	
-	
-}
+ }
 
 html, body {
 	height: 100%;
-	margin:1% auto;
-	
- 	
-	  
+	margin:1% auto;	  
 }
- /* styling of header*/
-@backgroundBlue: dodgerBlue;
 
-@fontcolorGreen: green;
+/* styling starts here!*/
 
+@backgroundWhite: white;
  .purpletext{
 	 color:purple;
  }
@@ -79,17 +73,18 @@ nav{
 	justify-content:space-between;
 	padding:20px;
 	margin:10px;
-}
-nav a{
-	text-decoration: none;
+		a{
+		text-decoration: none;
 
-	color: white;
-	width: 15%;
-	text-align: center;
-	padding:0.5%;
-	margin:1%;
-	font-size: 0.6rem;
-	
+		color: white;
+		width: 15%;
+		text-align: center;
+		padding:0.5%;
+		margin:1%;
+		font-size: 0.6rem;
+		
+	}
+
 
 }
 .home{
@@ -102,21 +97,22 @@ nav a{
 		width:28%;
 		height: 45vh;
 		@media (max-width:500px){
-			width:28%;
-			height:20vh;
+		width:28%;
+		height:20vh;
 		}
-	
-}	div{
-	width: 60%;
-	text-align: center;
-	padding: 2%;
+		
+	}	
+	div{
+		width: 60%;
+		text-align: center;
+		padding: 2%;
+
+	}
 
 }
 
-}
 h1{
 	font-family: 'Dancing Script', cursive;
-	@fontcolorGreen: green;
 	font-size: 2rem;
 	padding:2%;
 	margin-bottom: 1%;
@@ -134,11 +130,11 @@ p{
 		font-size:0.8rem;
 		.purpleText();
 	}
+
 }
 .button{
-	width: 15%;
-	background-color: white;
-	
+	width:15%;
+	background-color: @backgroundWhite;
 	border-radius:0.5rem;
 	@media (max-width:500px){
 		font-size:0.5rem;
@@ -163,6 +159,7 @@ p{
 	width:auto;
 	align-text:center;
 	font-family: 'Caveat', cursive;
+	
 	@media (max-width:500px){
 		font-size:0.9rem;
 		
@@ -180,13 +177,15 @@ p{
 
 .Portfolio{
 	background-color:OLDLACE;
-	
+
 	padding: 2%;
 
 }
 
 .Portfolio h2{
+	
 	font-size:1.5rem;
+	@fontcolorGreen;
 	@media (max-width:500px){
 		font-size:0.7rem;
 		
@@ -195,6 +194,7 @@ p{
 
 
 .Portfolio p{
+	
 	font-size:1rem;
 	@media (max-width:500px){
 		font-size:0.6rem;
@@ -204,7 +204,7 @@ p{
 .Contact{
 	background-color:DIMGRAY;
 	font-family: 'Handlee', cursive;
-	margin: 4 auto%;
+	margin: 4 auto;
 	padding: 2%;
 	@media (max-width:500px){
 		font-size:0.8rem;
@@ -215,9 +215,7 @@ p{
 .Contact h2, h3{
 	color:white;
 }
+
 .Contact address,phone{
 	color:white;
 }
-
-
- 
