@@ -235,8 +235,23 @@ p {
 }
 .Portfolio {
   background-color: OLDLACE;
-  margin: 4 auto%;
   padding: 2%;
+}
+.Portfolio h2 {
+  font-size: -4rem;
+}
+@media (max-width: 500px) {
+  .Portfolio h2 {
+    font-size: 0.6rem;
+  }
+}
+.Portfolio p {
+  font-size: 1rem;
+}
+@media (max-width: 500px) {
+  .Portfolio p {
+    font-size: 0.6rem;
+  }
 }
 .Contact {
   background-color: DIMGRAY;
