@@ -66,17 +66,23 @@ html, body {
 	  
 }
  /* styling of header*/
+@backgroundBlue: dodgerBlue;
+
+@fontcolorGreen: green;
+
+ .purpletext{
+	 color:purple;
+ }
 
 nav{
 	display: flex;
 	justify-content:space-between;
-
 	padding:20px;
 	margin:10px;
 }
 nav a{
 	text-decoration: none;
-	background-color: NAVY;
+
 	color: white;
 	width: 15%;
 	text-align: center;
@@ -92,37 +98,41 @@ nav a{
 	align-items: center;
 	background-color:THISTLE;
 	
-}
-.home img{
-	width:28%;
-	height: 45vh;
-	@media (max-width:500px){
+	img{
 		width:28%;
-		height:20vh;
-	}
-}
-.home div{
+		height: 45vh;
+		@media (max-width:500px){
+			width:28%;
+			height:20vh;
+		}
+	
+}	div{
 	width: 60%;
 	text-align: center;
 	padding: 2%;
+
+}
+
 }
 h1{
 	font-family: 'Dancing Script', cursive;
+	@fontcolorGreen: green;
 	font-size: 2rem;
 	padding:2%;
 	margin-bottom: 1%;
 	@media (max-width:500px){
 		font-size:1.2rem;
-		color:purple;
+		
 	}
 }
+
 p{
 	font-size: 1.2rem;
 	padding:2%;
 	margin:2%;
 	@media (max-width:500px){
 		font-size:0.8rem;
-		color:purple;
+		.purpleText();
 	}
 }
 .button{
@@ -155,7 +165,7 @@ p{
 	font-family: 'Caveat', cursive;
 	@media (max-width:500px){
 		font-size:0.9rem;
-		color:black;
+		
 	}
 }
 
@@ -176,12 +186,13 @@ p{
 }
 
 .Portfolio h2{
-	font-size:1-5rem;
+	font-size:1.5rem;
 	@media (max-width:500px){
-		font-size:0.6rem;
+		font-size:0.7rem;
+		
 
 	}	
-}
+
 
 .Portfolio p{
 	font-size:1rem;
